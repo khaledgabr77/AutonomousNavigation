@@ -4,7 +4,7 @@
 <launch>
   <!-- Specify the name of the sensor data and command topics (can be overridden on the command line) -->
   <!-- If no laser data is provided the local and global planer will be unable to perform dynamic obstacle avoidance -->
-  <arg name="scan_topic" default="/kobuki/laser/scan"/>
+  <arg name="scan_topic" default="scan_filtered"/>
   <arg name="cmd_vel_topic" default="/cmd_vel"/>
   <arg name="odom_topic" default="/odom"/>
  
