@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python 
 
 """
 ROS service server node for A-Star path planning algorithm exercise

@@ -27,7 +27,7 @@
 
 <!-- Send URDF to parameter server -->
   <param command="$(find xacro)/xacro $(find pura_description)/urdf/pura.xacro" name="robot_description"/>
-  <node args="-param robot_description -urdf -model pura" name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"/>
+
 
 <!-- Spawn a robot into Gazebo -->
 <!-- Requires: urdf 'robot_description' in parameter server -->
