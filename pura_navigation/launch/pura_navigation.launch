@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Map real robot -->
+  <arg name="map_file" default="$(find pura_navigation)/maps/gaming_room/gaming_room.yaml"/>
+  <master auto="start"/>
+
+  <!-- Map simulation -->
+  <!-- <arg name="map_file" default="$(find pura_navigation)/maps/arche/arche.yaml"/>
+  <master auto="start"/> -->
+
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+  
+  <!-- AMCL -->
+  <include file="$(find pura_navigation)/launch/pura_amcl.launch"/>
+
+  <!-- move_base -->
+  <include file="$(find pura_navigation)/launch/move_base.launch"/>
+
+  <!-- Rviz for navigation -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pura_navigation)/rviz/pura.rviz"/>  -->
+
+</launch>
