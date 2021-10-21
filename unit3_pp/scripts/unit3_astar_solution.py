@@ -1,4 +1,4 @@
-#! /usr/bin/env python 
+#!/usr/bin/env python3.8
 
 """
 ROS A-Star's algorithm path planning exercise solution

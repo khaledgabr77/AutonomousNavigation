@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python3.8
 
 """
 Rviz PointCloud2 visualization marker for path planners in a grid map
