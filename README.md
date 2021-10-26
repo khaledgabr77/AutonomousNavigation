@@ -17,8 +17,9 @@
 ### Workspace Configuration
 ```bash
 mkdir -p AutonomousNavigationAssignment/src
-cd AutonomousNavigationAssignment
+cd AutonomousNavigationAssignment/src
 git clone https://github.com/khaledgabr77/AutonomousNavigationAssignment-.git
+cd ..
 catkin_make
 ```
 
