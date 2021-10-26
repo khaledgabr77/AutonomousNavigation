@@ -4,7 +4,8 @@
 2. [Gazebo](#2)   
 3. [Mapping](#3)    
 4. [Navigation](#4)    
-5. [Refrances](#5)    
+5. [Referances](#5)    
+6. [Result](#6)    
 
 
 ## 1 Robot Configuration <a name="1"></a>
@@ -17,6 +18,7 @@
 ```bash
 mkdir -p AutonomousNavigationAssignment/src
 cd AutonomousNavigationAssignment-
+git clone https://github.com/khaledgabr77/AutonomousNavigationAssignment-.git
 catkin_make
 ```
 
@@ -50,7 +52,7 @@ roslaunch unit3_pp unit3_astar_solution.launch
 ```
 
 
-## 4 Refrances <a name="4"></a>
+## 5 Refrances <a name="5"></a>
 
 https://brilliant.org/wiki/a-star-search/
 
@@ -67,3 +69,9 @@ http://wiki.ros.org/gmapping
 http://wiki.ros.org/move_base
 
 https://github.com/rfzeg/path_planning_intro
+
+
+## 6 Result <a name="6"></a>
+
+# [Test video](https://www.youtube.com/watch?v=VtYBRn420Fw) 
+
