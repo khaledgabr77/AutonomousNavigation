@@ -18,7 +18,7 @@
 ```bash
 mkdir -p AutonomousNavigationAssignment/src
 cd AutonomousNavigationAssignment/src
-git clone https://github.com/khaledgabr77/AutonomousNavigationAssignment-.git
+git clone https://github.com/khaledgabr77/AutonomousNavigation.git
 cd ..
 catkin_make
 ```
