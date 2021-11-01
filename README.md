@@ -11,12 +11,12 @@
 ## 1 Robot Configuration <a name="1"></a>
 
 
-- clone AutonomousNavigationAssignment- repository to your machine.
+- clone AutonomousNavigation repository to your machine.
 
 
 ### Workspace Configuration
 ```bash
-mkdir -p AutonomousNavigationAssignment/src
+mkdir -p AutonomousNavigation/src
 cd catkin_ws/src
 git clone https://github.com/khaledgabr77/AutonomousNavigation.git
 cd ..
@@ -76,3 +76,6 @@ https://github.com/rfzeg/path_planning_intro
 
 # [Test video](https://www.youtube.com/watch?v=VtYBRn420Fw) 
 
+```bash
+implementation by Roberto Zegers R.
+```
